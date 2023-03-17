@@ -1,10 +1,8 @@
-import React from "react";
+import "./index.css";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home";
 import Error from "./Pages/Error";
-import Profile from "./Pages/Profile";
-import "./Style.css";
 import SingleProfile from "./Pages/SingleProfile";
 const router = createBrowserRouter(
   [
@@ -21,7 +19,7 @@ const router = createBrowserRouter(
       element: <Error />,
     },
   ],
-  { basename: "/swift-task/" }
+  { basename: "/swift/" }
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(<RouterProvider router={router} />);
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(<RouterProvider router={router} />);

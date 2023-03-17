@@ -1,0 +1,112 @@
+/* Reseting Styles */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+/* Error Page */
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Albert Sans";
+  min-height: 100vh;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+
+/* Styles */
+body{
+    background-color: darkkhaki;
+    padding: 20px;
+}
+.page-wrapper{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.page-title{
+  text-align: center;
+}
+
+.pageWrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.profile-box {
+  width: 100%;
+  max-width: 500px;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.profile-box img{
+    width: 120px;
+}
+.profiles-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: black;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.full-profile{
+  width: fit-content;
+  margin: 100px auto;
+}
+.full-profile img{
+  width: 200px;
+}
